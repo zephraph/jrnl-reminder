@@ -1,0 +1,12 @@
+{
+  "name": "jrnl-reminder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:zephraph/jrnl-reminder.git",
+  "author": "Zephraph <zephraph@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "execa": "^1.0.0",
+    "node-notifier": "^5.4.0"
+  }
+}
