@@ -5,9 +5,10 @@ orbs:
 
 workflows:
   release:
-    - yarn/auto-release:
-        context: release
-        filters:
-          branches:
-            only:
-              - master
+    jobs:
+      - yarn/auto-release:
+          context: release
+          filters:
+            branches:
+              only:
+                - master
