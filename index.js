@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const execa = require("execa");
 const notifier = require("node-notifier");
 const nc = new notifier.NotificationCenter();
