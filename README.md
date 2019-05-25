@@ -12,18 +12,31 @@ response directly in the notification so that you can quickly get back to the wo
 
 # Usage
 
-Install jrnl
+### Install jrnl
 
 ```
 brew install jrnl
 ```
 
-Install with npm (or yarn)
+### Install with npm (or yarn)
 
 ```
 npm i -g jrnl-reminder
 ```
 
-Setup a [cron job](https://www.youtube.com/watch?v=QZJ1drMQz1A) to run it hourly
+### Setup a [cron job](https://www.youtube.com/watch?v=QZJ1drMQz1A) to run it hourly
 
-I recommend a cron entry like [0 10-17 \* \* 1-5](https://crontab.guru/#0_10-17_*_*_1-5). That'll run once an hour from 10am to 5pm on weekdays.
+_Open your cronfile for editing_
+
+```
+crontab -e
+```
+
+and add an entry (here's mind)
+
+```cron
+0 10-17 * * 1-5 jrnl-reminder
+```
+
+This schedule is from 10am to 5pm Monday through Friday. If you need help building a cron schedule
+I recommend using [crontab.guru](https://crontab.guru/)
