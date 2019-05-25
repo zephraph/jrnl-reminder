@@ -1,3 +1,9 @@
+# v1.0.7 (Sat May 25 2019)
+
+
+
+---
+
 # v1.0.6 (Sat May 25 2019)
 
 #### 📝  Documentation
