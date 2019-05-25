@@ -1,5 +1,7 @@
 # jrnl-reminder
 
+![jrnl-reminder-demo](https://user-images.githubusercontent.com/3087225/58364951-67964a00-7e8a-11e9-93b4-233b526844ee.gif)
+
 If you haven't tried [jrnl.sh](http://jrnl.sh/) I definitely recommend you try it out.
 
 If you're here I'm guess I don't have to sell you on the benefits of journaling. Still, as valuable as it is,
