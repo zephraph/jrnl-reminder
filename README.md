@@ -1,6 +1,8 @@
 # jrnl-reminder
 
-![jrnl-reminder-demo](https://user-images.githubusercontent.com/3087225/58364951-67964a00-7e8a-11e9-93b4-233b526844ee.gif)
+<p align="center">
+  <image src="https://user-images.githubusercontent.com/3087225/58364951-67964a00-7e8a-11e9-93b4-233b526844ee.gif">
+</p>
 
 If you haven't tried [jrnl.sh](http://jrnl.sh/) I definitely recommend you try it out.
 
@@ -34,7 +36,7 @@ _Open your cronfile for editing_
 crontab -e
 ```
 
-and add an entry (here's mind)
+and add an entry (here's mine)
 
 ```cron
 0 10-17 * * 1-5 jrnl-reminder
