@@ -2,7 +2,7 @@
   "name": "jrnl-reminder",
   "description": "Reminds you to add your journal entries",
   "bin": "index.js",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "index.js",
   "repository": "https://github.com/zephraph/jrnl-reminder",
   "author": "Zephraph <zephraph@gmail.com>",
