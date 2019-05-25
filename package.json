@@ -1,8 +1,9 @@
 {
   "name": "jrnl-reminder",
+  "description": "Reminds you to add your journal entries",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:zephraph/jrnl-reminder.git",
+  "repository": "https://github.com/zephraph/jrnl-reminder",
   "author": "Zephraph <zephraph@gmail.com>",
   "license": "MIT",
   "dependencies": {
