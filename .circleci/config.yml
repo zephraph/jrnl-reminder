@@ -1,0 +1,13 @@
+version: 2.1
+
+orbs:
+  yarn: artsy/yarn@2.0.0
+
+workflows:
+  release:
+    - yarn/auto-release:
+        context: release
+        filters:
+          branches:
+            only:
+              - master
