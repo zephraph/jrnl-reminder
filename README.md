@@ -22,10 +22,16 @@ response directly in the notification so that you can quickly get back to the wo
 brew install jrnl
 ```
 
-### Install with npm (or yarn)
+### Install with npm
 
 ```
 npm i -g jrnl-reminder
+```
+
+### Install with yarn
+
+```
+yarn global add jrnl-reminder
 ```
 
 ### Setup a [cron job](https://www.youtube.com/watch?v=QZJ1drMQz1A) to run it hourly
