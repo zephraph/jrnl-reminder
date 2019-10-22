@@ -7,11 +7,12 @@ const nc = new notifier.NotificationCenter();
 const jrnl = (...args) => execa("jrnl", args);
 
 (async () => {
-  const lastHourEntries = (await jrnl("-from", "last hour", "--export", "json")).stdout;
-  const { entries } = JSON.parse(lastHourEntries);
+  const desiredFrequency = "30 minutes"
+  const recentEntries = (await jrnl("-from", `${desiredFrequency} ago`, "--export", "json")).stdout;
+  const { entries } = JSON.parse(recentEntries);
 
   if (entries.length > 0) {
-    console.log("Has entires from last hour");
+    console.log(`Has entries from last ${desiredFrequency}`);
     return;
   }
 
