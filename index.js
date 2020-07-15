@@ -22,7 +22,7 @@ const jrnl = (...args) => execa("jrnl", args);
     closeLabel: "Not now",
     reply: true,
     wait: true,
-    timeout: 60
+    timeout: 5
   });
 
   nc.on("replied", (obj, options, metadata) => {
