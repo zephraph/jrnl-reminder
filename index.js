@@ -4,7 +4,9 @@ const execa = require("execa");
 const notifier = require("node-notifier");
 const nc = new notifier.NotificationCenter();
 
-const jrnl = (...args) => execa("jrnl", args);
+const pathToJrnl = process.env.PATH_TO_JRNL || "jrnl"
+
+const jrnl = (...args) => execa(pathToJrnl, args);
 
 (async () => {
   const desiredFrequency = "30 minutes"
